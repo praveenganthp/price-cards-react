@@ -1,0 +1,50 @@
+.price-container{
+    height: auto;
+}
+h5{
+    /* padding-inline: 150px; */
+    line-height: 2rem;
+    letter-spacing: 2px;
+}
+ 
+
+.card{
+    border-radius: 20px;
+}
+.group-cards{
+    padding-inline: 150px;
+    background: rgb(0, 136, 255);
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 10px;
+    border-radius: 10px;
+}
+.card span{
+font-weight: bold;
+text-transform:uppercase;
+}
+.card h2{
+    padding: 20px 0px;
+    text-align: center;
+}
+.content ul li{
+font-weight: bold;
+padding: 10px 0px;
+list-style: none;
+text-transform: capitalize;
+}
+.content button{
+     width: 100%;
+    margin-bottom: 2px;
+     padding: 10px 0px;
+     font-weight: 500;
+     border-radius: 25px;
+}
+.enabled{
+    opacity: 1;
+}
+.disabled{
+    opacity: 0.5;
+    color: black;
+}
